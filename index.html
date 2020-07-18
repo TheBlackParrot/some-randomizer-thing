@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-5.14.min.css">
+
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#263238" />
+</head>
+
+<body>
+	<div id="itemTemplate" style="display: none;">
+		<div class="inputSection">
+			<div class="inputPart">
+				<span class="inputHeader">Item</span>
+				<input type="text" class="inputBox inputSmallBox"/>
+			</div>
+			<div class="inputPart">
+				<span class="inputHeader">Choices <em>(1 per line)</em></span>
+				<textarea class="inputBox inputLargeBox"></textarea>
+			</div>
+			<div class="inputPart buttons">
+				<div class="button deleteButton"><i class="fas fa-trash-alt"></i> Remove</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="inputs">
+		</div>
+
+		<div class="mainButtons">
+			<div class="button addButton"><i class="fas fa-plus"></i> Add Item</div>
+			<div class="button generateButton"><i class="fas fa-bolt"></i> Generate</div>
+		</div>
+
+		<div class="outputSection">
+			<table class="output">
+			</table>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

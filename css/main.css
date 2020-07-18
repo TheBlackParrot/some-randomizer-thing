@@ -1,0 +1,189 @@
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("../webfonts/SourceSansPro-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("../webfonts/SourceSansPro-Bold.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("../webfonts/SourceSansPro-Italic.ttf");
+	font-weight: 400;
+	font-style: italic;
+}
+
+body {
+	color: #fff;
+	background: #37474F;
+	font-family: "Source Sans Pro", sans-serif;
+	size: 12pt;
+}
+
+.wrapper {
+	max-width: 600px;
+	margin: auto;
+	width: calc(100vw - 24px);
+	padding: 12px;
+}
+
+.inputSection {
+	background: #263238;
+	border-radius: 8px;
+	padding: 12px;
+	border: 1px solid #607D8B;
+	box-shadow: 0px 4px 2px -2px #000;
+	margin-bottom: 26px;
+}
+
+.inputPart {
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	border-bottom: 1px dashed #455A64;
+}
+.inputPart:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.inputHeader {
+	display: block;
+	font-size: 10pt;
+	vertical-align: middle;
+	font-weight: 700;
+	line-height: 1em;
+	padding-bottom: 12px;
+}
+
+.inputBox {
+	border-radius: 3px;
+	border: 1px solid #607D8B;
+	outline: none;
+	padding: 3px;
+	margin: 0;
+	font-family: sans-serif;
+	size: 12pt;
+	line-height: 1.33em;
+	background: #000;
+	color: #fff;
+	width: 100%;
+	font-family: "Source Sans Pro";
+}
+
+.inputLargeBox {
+	min-height: 92px;
+	max-height: 431px;
+}
+
+em {
+	opacity: 0.75;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 9pt;
+}
+
+.fas {
+	margin-right: 4px;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	min-width: 128px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-left: 6px;
+	margin-right: 6px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.button:active {
+	position: relative;
+	top: 2px;
+}
+
+.deleteButton {
+	background-color: #F44336;
+	box-shadow: 0px 3px 0px #B71C1C, 0px -1px 0px #EF9A9A;
+}
+.deleteButton:active {
+	background-color: #B71C1C;
+	box-shadow: 0px 1px 0px #F44336, 0px -1px 0px #970c0c;
+}
+
+.mainButtons {
+	text-align: center;
+	padding-bottom: 26px;
+}
+
+.addButton {
+	background-color: #4CAF50;
+	box-shadow: 0px 3px 0px #2E7D32, 0px -1px 0px #81C784;
+}
+.addButton:active {
+	background-color: #2E7D32;
+	box-shadow: 0px 1px 0px #4CAF50, 0px -1px 0px #0B3E10;
+}
+.generateButton {
+	background-color: #03A9F4;
+	box-shadow: 0px 3px 0px #0277BD, 0px -1px 0px #81D4FA;
+}
+.generateButton:active {
+	background-color: #0277BD;
+	box-shadow: 0px 1px 0px #03A9F4, 0px -1px 0px #02579D;
+}
+
+.outputSection {
+	display: none;
+	width: 100%;
+}
+
+.output {
+	width: 100%;
+}
+
+.output tr {
+	border-bottom: 1px dashed #455A64;
+}
+.output tr:last-child {
+	border-bottom: 0;
+}
+
+.output tr td {
+	padding: 6px;
+}
+.output tr:nth-child(odd) {
+	background-color: #263238;
+}
+.output tr:nth-child(even) {
+	background-color: #2e3a40;
+}
+.output tr td:first-child {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: right;
+	min-width: 128px;
+	white-space: nowrap;
+	background-color: #000;
+}
+.output tr td:last-child {
+	width: 100%;
+}
